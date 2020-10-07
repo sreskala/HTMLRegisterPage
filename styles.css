@@ -1,0 +1,99 @@
+/*--------------- Main Elements ----------------*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 5px;
+}
+
+input {
+    border: 1px solid lightgray;
+    border-radius: .5em;
+    margin: 12px;
+    padding: 8px;
+}
+
+button {
+    width: 95%;
+    align-self: center;
+    margin: 10px auto;
+    padding: 5px;
+    height: 30px;
+    background-color: rgb(68, 157, 230);
+    color: white;
+    border: 1px solid lightgray;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, .5);
+    border: none;
+}
+
+
+/*-------------- Classes ---------------------------*/
+
+/* Navbar */
+.navbar-container {
+    width: 100%;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 15px 10px;
+}
+
+.navbar-item {
+    background-color:rgb(68, 157, 230);
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 2em;
+    margin: 0px 10px 0px;
+    padding: 2px 10px;
+    border: 1px solid lightgray;
+    border-radius: .3em;
+    width: 10%;
+    text-align: center;
+}
+
+/* Form */
+.form-container {
+    background-color: rgb(44, 187, 235);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 30%;
+    background-color: white;
+    margin: 80px auto 80px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: .5em;
+}
+
+.form-header {
+    margin-bottom: 10px;
+}
+
+.form-footer {
+    align-self: center;
+    font-size: 40px;
+    width: 95%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
